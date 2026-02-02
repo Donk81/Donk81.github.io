@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-image {
+  background: #ccc;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features,
+.extras {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card,
+.box {
+  background: #ddd;
+  width: 30%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: #eee;
+  padding: 20px;
+}
