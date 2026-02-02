@@ -29,7 +29,7 @@ nav a {
 .hero {
   padding: 80px 40px;
   text-align: center;
-  background: linear-gradient(#dff3ea, #f7f9fc);
+  background: #f7f9fc;
 }
 
 .hero h1 {
@@ -47,7 +47,6 @@ nav a {
   padding: 20px;
   border-radius: 10px;
   flex: 1;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
 .extras {
