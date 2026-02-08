@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Down with the Discness</title>
+  <meta name="description" content="Contact Down with the Discness with questions about local disc golf courses, events, and beginner tips.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="top-bar">
+  <div class="logo">
+    <a href="index.html">DownWithTheDiscness</a>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="beginner-tips.html">Beginner Tips</a>
+    <a href="top-discs.html">Top Discs</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Contact Us</h1>
+  <p>Have a question about a course, event, or disc recommendation? Reach out and we’ll get back to you.</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Send a Message</h2>
+
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="topic">Topic</label>
+      <select id="topic" name="topic">
+        <option value="courses">Courses</option>
+        <option value="events">Events</option>
+        <option value="beginner">Beginner Tips</option>
+        <option value="discs">Disc Recommendations</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Submit</button>
+      <div id="form-success" class="form-success" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:atoney33@ivytech.edu">atoney33@ivytech.edu</a></p>
+  </div>
+
+  <div>
+    <h3>Follow Us</h3>
+    <p>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a> ·
+      <a href="https://x.com" target="_blank" rel="noopener">X</a> ·
+      <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+    </p>
+  </div>
+
+  <div>
+    <h3>Newsletter</h3>
+    <p>Get weekly tips and event updates.</p>
+  </div>
+</footer>
+
+</body>
+</html>
