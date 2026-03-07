@@ -253,4 +253,11 @@ button[type="submit"]:focus {
     align-items: flex-start;
     gap: 16px;
   }
+  
+  .section-heading {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 2rem 0 1rem 0;
+  }
 }
